@@ -98,7 +98,7 @@ export const MUEBLES: MuebleVista[] = [
     nombre: 'Mesa de comedor',
     detalle: 'Queda apoyada en el piso. Con el celular abrís la cámara y caminás alrededor.',
     medidas: '1,60 m de ancho · 0,90 m de profundidad · 0,75 m de alto',
-    src: '/modelos/mesa.glb',
+    src: '/modelos/mesa.glb?disable_occlusion=false',
     orbita: '25deg 68deg 2.5m',
   },
   {
@@ -106,7 +106,7 @@ export const MUEBLES: MuebleVista[] = [
     nombre: 'Placard',
     detalle: 'Para ver si entra en la pared y a qué altura queda junto a la puerta.',
     medidas: '0,90 m de ancho · 0,55 m de profundidad · 1,90 m de alto',
-    src: '/modelos/placard.glb',
+    src: '/modelos/placard.glb?disable_occlusion=false',
     orbita: '30deg 75deg 3.6m',
   },
 ]

@@ -211,7 +211,7 @@ export function App() {
           <div className="envoltorio">
             <h2 id="titulo-espacio">Miralos en tu casa</h2>
             <p className="lead">
-              El mueble queda quieto sobre el piso, a su tamaño. En el celular se abre la cámara y vos te movés alrededor.
+              Abrís la cámara, lo apoyás en el piso y caminás alrededor. Queda quieto y del tamaño real, con la luz de la habitación.
             </p>
             <div className="muebles">
               {MUEBLES.map((pieza) => (
@@ -222,7 +222,7 @@ export function App() {
                     <p className="medidas">{pieza.medidas}</p>
                   </div>
                   <button type="button" className="boton" onClick={() => setMueble(pieza)}>
-                    Ver en 3D
+                    Ver en tu casa
                   </button>
                 </article>
               ))}
